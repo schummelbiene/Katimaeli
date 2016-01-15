@@ -1,0 +1,52 @@
+\documentclass[a4paper]{scrartcl}
+\setlength {\parindent}{0pt}
+\usepackage[utf8]{inputenc}
+%\usepackage[ngerman]{babel}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\usepackage{color}   
+\usepackage{import}
+\import{/home/susi/Uni/}{head}
+%\usepackage[inner= 2cm, outer=2cm, top= 2cm, bottom= 2cm]{geometry}
+%----------
+\newcommand{\page} [1]{{\color{green} #1}}
+\newcommand{\name} [1]{{\color{blue}  #1}}
+\newcommand{\stats}[1]{{\color{red}   #1}}
+\newcommand{\gold} [1]{{\color{orange}#1}}
+\newcommand{\mybox} [2]{
+  \begin{center}
+    \framebox{\parbox{#1 CM}{#2}}
+  \end{center}
+}
+%----------
+\title{Katimälis Sicht der Dinge}
+\date{}
+
+\begin{document}
+\maketitle
+\input{heldenlied.tex}
+\newpage
+
+\input{borbarad_1_1.tex}
+\input{borbarad_1_2.tex}
+\input{borbarad_2_1.tex}
+\input{borbarad_2_2.tex}
+\input{borbarad_3_1.tex}
+\input{borbarad_3_2.tex}
+\input{borbarad_3,5.tex}
+\input{intermezzo_3_5.tex}
+\input{intermezzo_3_75.tex}
+\input{borbarad_4_1.tex}
+\vfill
+
+Katimäli von Lanans Stamm, Magister Extraordninarius Karypto von Thalusa, Sonea Sorenstein, Sonnhard Mauernbrecher, Ritterinnen und Ritter des Großen Silbernen Bärenordens und Mentorin Varna Henanduria mit Eno, Carlos, Mikado, Yiyila, Sindh, Graf Tamur, Graf Kalimach, Graf Trutzschweif, Gräfin Loki
+\newpage
+
+
+%\addtocontents{names}{\name}
+%\addcontentsline{names}{name}{fff}
+%\newlistof{\name}{names}{Personen}
+%\listofname
+
+%\tableofcontents
+\end{document}
